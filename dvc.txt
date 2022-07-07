@@ -1,0 +1,5 @@
+git init
+dvc init
+dvc add data\data.csv --to start tracking of data
+dvc remote add -d dvc_remote gdrive://1VTz_bZTJHU2yGP4th6guL0BffkqjDh2f
+dvc pull
