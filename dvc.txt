@@ -3,3 +3,4 @@ dvc init
 dvc add data\data.csv --to start tracking of data
 dvc remote add -d dvc_remote gdrive://<alphanuemeirc code>
 dvc pull
+/* the purpose of dvc is to keep track of data changes like git does for code changes. It can also help team colab when working on a common data*/
